@@ -1,5 +1,97 @@
 body {
-	margin: auto 0;
+	width: 100%;
+	background-color: #d2a679;
+}
+
+header {
+  	height: 120px;
+  	background-color: white;
+  	margin-top: 10px;
+}
+
+.clearfix: after {
+  content: "indexsection";
+  display: table;
+  clear: both;
+}
+
+
+.myname {
+	background-color: #4aaaa5;
+	height: 120px;
+	width: 225px;
+	margin-left: 150px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	float: left;
+	font-family: Impact, "Charcoal", sans-serif;
+}
+
+.indexsection {
+	background-color: white;
 	width: 960px;
-	background-color: #ffffff; 
+	margin: 40px auto;
+	float: left;
+}
+
+.contentarea {
+	width: 650px;
+	float: left;
+}
+
+.aboutme {
+	text-align: left;
+	font-size: 40px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-bottom: 30px;
+}
+
+#hugo {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.p1 {
+	float: right;
+}
+
+aside {
+	text-align: center;
+	float: right;
+	background-color: white;
+	height: 200px;
+	width: 270px;
+	margin: 40px auto;
+}
+
+nav {
+	float: right;
+	height: 50px;
+	padding: 20px;
+	margin-right: 20px;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	background-color: #d2a679;
+	font-family: Courier;
+	padding: 5px;
+}
+
+a:hover {
+	background-color: blue;
+	color: red;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #777;
+  text-align: center;
 }
