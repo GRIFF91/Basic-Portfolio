@@ -1,6 +1,7 @@
 body {
 	width: 100%;
-	background-color: #d2a679;
+	background-color: white;
+	background-image: url(../images/ep_naturalwhite.png)
 }
 
 header {
@@ -9,12 +10,21 @@ header {
   	margin-top: 10px;
 }
 
+* {
+	box-sizing:border-box;
+}
+
 .clearfix: after {
-  content: "indexsection";
-  display: table;
+  content: "";
+  display: block;
   clear: both;
 }
 
+.bigdiv {
+	width: 960px;
+	margin: 40px auto;
+	margin-bottom: 150px;
+}
 
 .myname {
 	background-color: #4aaaa5;
@@ -30,8 +40,10 @@ header {
 
 .indexsection {
 	background-color: white;
-	width: 960px;
+	/*width: 960px;
 	margin: 40px auto;
+	margin-left: 50px;
+	margin-right: 50px;*/
 	float: left;
 }
 
@@ -45,25 +57,39 @@ header {
 	font-size: 40px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin-bottom: 30px;
+	padding: 10px;
 }
 
 #hugo {
-	float: left;
 	height: 200px;
 	width: 200px;
+	padding: 10px;
 }
 
 .p1 {
-	float: right;
+	float: left;
+	padding: 10px;
+}
+
+.connect {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.interests {
+	width: 500px;
+	float: left;
+	background-color: white;
+	padding: 10px;
 }
 
 aside {
 	text-align: center;
 	float: right;
 	background-color: white;
-	height: 200px;
+	height: 150px;
 	width: 270px;
-	margin: 40px auto;
 }
 
 nav {
@@ -76,18 +102,19 @@ nav {
 
 a {
 	text-decoration: none;
-	background-color: #d2a679;
+	background-color: #4aaaa5;
 	font-family: Courier;
 	padding: 5px;
+	color: white;
 }
 
 a:hover {
-	background-color: blue;
-	color: red;
+	background-color: #d2a679;  
+	color: white;
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
