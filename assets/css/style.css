@@ -11,7 +11,7 @@ header {
 }
 
 * {
-	box-sizing:border-box;
+	box-sizing: border-box;
 }
 
 .clearfix: after {
@@ -40,10 +40,6 @@ header {
 
 .indexsection {
 	background-color: white;
-	/*width: 960px;
-	margin: 40px auto;
-	margin-left: 50px;
-	margin-right: 50px;*/
 	float: left;
 }
 
@@ -58,17 +54,24 @@ header {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin-bottom: 30px;
 	padding: 10px;
+	color: #4aaaa5;
 }
 
-#hugo {
+#dapper {
 	height: 200px;
 	width: 200px;
 	padding: 10px;
 }
 
 .p1 {
-	float: left;
 	padding: 10px;
+}
+
+.contactsdiv {
+	width: 650px;
+	float: left;
+	background-color: white;
+	padding: 20px;
 }
 
 .connect {
@@ -77,12 +80,133 @@ header {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+.heading1 {
+	text-align: left;
+	font-size: 40px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	padding: 10px;
+	color: #4aaaa5;
+}
+
 .interests {
 	width: 500px;
-	float: left;
 	background-color: white;
 	padding: 10px;
+	
 }
+
+.portfoliodiv {
+	width: 500px;
+	background-color: white;
+	float: left;
+}
+
+.contactsh1 {
+	font-size: 40px;
+	color: #4aaaa5;
+}
+
+input {
+	width: 100%;
+	padding: 5px;
+}
+
+.message {
+	height: 160px;
+}
+
+.submitbutton {
+	margin-left: 10px;
+	float: left;
+	margin-top: 20px;
+}
+
+
+#bigfilm {
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	z-index: 101;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#film {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#bigdog {
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	z-index: 102;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#dog {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#bighistory {
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	z-index: 103;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#Normandybeach {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#bigsoccer {
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	z-index: 104;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#soccer {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#bigspace {
+	height: 40px;
+	width: 200px;
+	position: absolute;
+	z-index: 105;
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+#space {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
 
 aside {
 	text-align: center;
@@ -90,6 +214,8 @@ aside {
 	background-color: white;
 	height: 150px;
 	width: 270px;
+	padding: 10px;
+	color: #4aaaa5;
 }
 
 nav {
